@@ -1,0 +1,48 @@
+<!-- embedded_streamlit.html -->
+
+{% extends "base.html" %}
+
+{% block content %}
+<style>
+    body, html {
+        height: 100%;
+        margin: 0;
+        overflow: hidden;
+    }
+
+    .full-screen-container {
+        height: 100%;
+        width: 100%;
+        position: relative;
+    }
+
+    .full-screen-iframe {
+        width: 100%;
+        height: 100%;
+        border: none;
+    }
+
+    .streamlit-app {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+       h1 {
+        text-align: center;
+    }
+</style>
+
+<div class="full-screen-container">
+    <h1>nutri-crop prediction</h1>
+    <iframe class="full-screen-iframe" src="http://localhost:8501"></iframe>
+    <div class="streamlit-app" id="streamlitApp"></div>
+</div>
+
+<script>
+    // Load the Streamlit app into the specified div
+    Streamlit.embed("streamlitApp", "http://localhost:8501");
+</script>
+{% endblock %}
