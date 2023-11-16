@@ -1,4 +1,4 @@
-<h1 align="center"> BD_AGRO D-JANGO SYSTEM </h1>
+<h1 align="center"> NUTRI-CROP </h1>
 <img src="https://github.com/SAZZAD-AMT/BD_AGRO_D-JANGO_SYSTEM/blob/main/static-files/Screenshot%202022-02-17%20235050.png?raw=true">
 
 ```
@@ -17,7 +17,7 @@ UML Class Diagram---------------------------------------------------------------
 
 # Introduction
 ```
-BD Agro System is a service and information providing platform that makes life 
+NUTRI-CROP is a service and information providing platform that makes life 
 easy and saves time for the farmers who wants to acquire information regarding 
 their crops especially, in terms of insecticides and which weather is suitable for 
 creating a particular crop in a specific pH of land. Moreover, in case of emergency,
@@ -71,7 +71,7 @@ this should be considered a minor hindrance at best.
 
 # Non-functional Requirements
 ```
-For BD AGRO system types of non-functional requirement 
+For NUTRI-CROP types of non-functional requirement 
 1. Safety / security Requirement.
 2. Environmental Requirement.
 3. Usability Requirement.
@@ -81,20 +81,20 @@ For BD AGRO system types of non-functional requirement
 ---
 # Functional Requirements
 ```
-In BD AGRO system need a functional requirement 
+In NUTRI-CROP need a functional requirement 
 1. A user can easily access recommended option following the flow chart.
-2. BD AGRO is very user-friendly application. User can see all the current 
+2. NUTRI-CROPis very user-friendly application. User can see all the current 
 option in the menu bar.
-3. While using BD AGRO user can get First help, quick replies and solutions.
+3. While using NUTRI-CROPuser can get First help, quick replies and solutions.
 4. User can see he/her profile, Number, Address, Location Including log out,
 log in option.
 6
-5. User can Order Fertilizer and other agricultural tools from BD AGRO 
+5. User can Order Fertilizer and other agricultural tools from NUTRI-CROP
 Application. The package will be delivered to the users in the correct 
 location in 2/3 business day.
-6. BD AGRO also give you the suitable season and weather details for 
+6. NUTRI-CROPalso give you the suitable season and weather details for 
 cultivating crops.
-7. BD AGRO gives the best advice to the user by our expert doctors online.
+7. NUTRI-CROPgives the best advice to the user by our expert doctors online.
 Just click the photo of the crop disease then upload the picture and add 
 your location, phone number, our expert doctor will advise the user in the 
 description box what will be the solution or medicine for the disease.
@@ -112,7 +112,7 @@ can get the updated news of the current situation.
 # ER diagram:
 # GUI of BD AGRO:
 <img src="https://github.com/SAZZAD-AMT/BD_AGRO_D-JANGO_SYSTEM/blob/main/static-files/Screenshot%202022-02-17%20235213.png?raw=true">
-# BD AGRO Home Page :
+# NUTRI-CROPHome Page :
 ``` 
 Login :
 Sign Up Page :
@@ -220,7 +220,7 @@ urlpatterns = [
 ```
 
 
-# BD AGRO APPS
+# NUTRI-CROPAPPS
 
 ```
 from django.apps import AppConfig
@@ -231,7 +231,7 @@ class BdagroConfig(AppConfig):
 ```
 
 
-## BD AGRO URLS
+## NUTRI-CROPURLS
 
 ```
 from django.urls import path,include
@@ -251,7 +251,7 @@ urlpatterns = [
 ```
 
 
-## BD AGRO VIEWS
+## NUTRI-CROPVIEWS
 
 ```
 
